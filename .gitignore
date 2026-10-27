@@ -21,3 +21,9 @@ dataset/
 *.onnx
 *.bin
 runs/
+
+weights/
+*.pth
+*.pt
+runs/
+venv_gpu/
