@@ -22,6 +22,15 @@ An end-to-end computer vision pipeline designed for automated waste sorting. Dee
 | **DeepWaste (EfficientNet-B2)** | **224x224** | **80.82%** | **Deployed** |
 
 ---
+### 📊 Performance Comparison
+
+<p align="center">
+  <img src="baseline_confusion_matrix.png" width="48%" alt="ResNet-50 Baseline Confusion Matrix" />
+  <img src="proposed_confusion_matrix.png" width="48%" alt="EfficientNet-B2 Proposed Confusion Matrix" />
+</p>
+<p align="center">
+  <em>Left: Baseline ResNet-50 (71.61% Acc) | Right: Proposed EfficientNet-B2 (80.82% Acc)</em>
+</p>
 
 ## 🏗 Pipeline Architecture
 
